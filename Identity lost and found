@@ -1,0 +1,181 @@
+﻿!DOCTYPE html
+html lang=ja
+head
+  meta charset=UTF-8 
+  meta name=viewport content=width=device-width, initial-scale=1.0 
+  titleIdentity Lost and Found - Raga Fitrah MuhammadSyahtitle
+  style
+    @import url('httpsfonts.googleapis.comcss2family=Noto+Serif+JPwght@400;700&display=swap');
+    body {
+      font-family Noto Serif JP, serif;
+      margin 0;
+      padding 0;
+      color #f5f5f5;
+      background url('httpsimages.unsplash.comphoto-1507525428034-b723cf961d3eauto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size cover;
+      overflow-x hidden;
+    }
+    bodybefore {
+      content ;
+      position fixed;
+      top 0; left 0;
+      width 100%; height 100%;
+      background rgba(0,0,0,0.65);
+      backdrop-filter blur(8px);
+      z-index -1;
+    }
+    header {
+      text-align center;
+      padding 60px 20px 30px;
+    }
+    h1 {
+      font-size 2.8em;
+      background linear-gradient(90deg, #ffb347, #ffcc33, #ffe773);
+      -webkit-background-clip text;
+      -webkit-text-fill-color transparent;
+      animation glow 5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { filter drop-shadow(0 0 10px #ffcc33); }
+      to { filter drop-shadow(0 0 20px #fff2a8); }
+    }
+    p.author {
+      color #ddd;
+      font-size 1em;
+      margin-top 10px;
+    }
+    main {
+      max-width 900px;
+      margin 0 auto;
+      padding 30px;
+      background rgba(0, 0, 0, 0.45);
+      border-radius 16px;
+      box-shadow 0 0 20px rgba(255,255,255,0.1);
+      backdrop-filter blur(4px);
+      line-height 2;
+      font-size 1.1em;
+    }
+    .buttons {
+      text-align center;
+      margin-bottom 25px;
+    }
+    button {
+      background linear-gradient(135deg, #ffcc33, #ffb347);
+      border none;
+      border-radius 8px;
+      padding 10px 18px;
+      margin 6px;
+      color #000;
+      cursor pointer;
+      font-weight bold;
+      transition all 0.3s;
+    }
+    buttonhover {
+      transform scale(1.08);
+      background linear-gradient(135deg, #ffe773, #ffcc33);
+    }
+    footer {
+      text-align center;
+      padding 25px;
+      font-size 0.9em;
+      color #ccc;
+      background rgba(0,0,0,0.7);
+      border-top 1px solid rgba(255,255,255,0.1);
+      margin-top 40px;
+    }
+    audio {
+      margin-top 10px;
+    }
+    .fadein {
+      animation fadein 2s ease-in-out;
+    }
+    @keyframes fadein {
+      from { opacity 0; transform translateY(20px); }
+      to { opacity 1; transform translateY(0); }
+    }
+    i {
+      color #ffd;
+    }
+  style
+head
+body
+
+  header class=fadein
+    h1Identity Lost and Foundh1
+    p class=author作詞・作曲：Raga Fitrah MuhammadSyahp
+  header
+
+  main class=fadein
+    div class=buttons
+      button onclick=toggleTranslation()英語バージョンを表示  非表示button
+      button onclick=playMusic()🎵 音楽を再生  一時停止button
+    div
+
+    div id=jp
+      p鏡の中のガラスが彼を吐き出した。見知らぬ顔がそこにあった。br
+      彼は自分の人生を借り物の服のようにまとい、いつ、どこでその糸がほどけたのかも知らなかった。br
+      模様は変わり、輪郭は飛び立ち、錨は沈み、羅針盤は狂い、光が薄れていく中で迷子になった。br
+      彼という存在は煙のように消え、風にささやく声となった。br
+      そして不安定な膝の上に、新しい姿が映り込んだ。p
+
+      p古き自我はるつぼの熱に溶け、鋼は砂と雪へと変わった。br
+      優しい手がその板を拭い去り、新たな魂を育てた。br
+      選択も戦いもなく、流れに身を任せる静かな潮。br
+      男という壁が崩れ、彼女が内から生まれた。p
+
+      p歳月は霞のように過ぎ、新しい声、新しい生き方を学んだ。br
+      不確かな地に人生を築き、何が真実で何が偽りかを見極めようとした。br
+      ある雨の日、通りの向こうに、昔知っていた顔を見つけた。br
+      その笑い声は過去の人生の残響、語られなかった物語。br
+      彼は自分の亡霊を見ず、ただ今の彼女を見た。br
+      その瞳には共有した過去が宿り、今は二倍の輝きを放っていた。p
+
+      p古き自我はるつぼの熱に溶け、鋼は砂と雪へと変わった。br
+      優しい手がその板を拭い去り、新たな魂を育てた。br
+      選択も戦いもなく、流れに身を任せる静かな潮。br
+      男という壁が崩れ、彼女が内から生まれた。p
+
+      p彼はかつての少年の話をした。彼女は微笑み、手を取った。br
+      「それはもう閉じた章なの。理解してほしいの。」br
+      「あなたを愛した心はここにある。ただ形を変えただけ。」br
+      「真実を見つけ、変化を乗り越え、嵐を生き延びたの。」br
+      過去は鎖ではなく、導く光となり、彼は魂を見た。br
+      そしてすべてが正しいと感じた。p
+
+      p長い道のり、深い誓い、再び一つになった愛。br
+      指輪は途切れぬ円、身体と魂を結ぶ輪。br
+      いま窓辺には揺りかごがあり、優しい調和の音が響く。br
+      かつて少年だった者、いまの彼女、そして新しい家族がここにいる。p
+
+      pb――家族が見つかった。bp
+    div
+
+    div id=en style=displaynone;
+      piThe mirror’s glass just spat him out, a stranger stared back then.br
+      He wore his life like borrowed clothes, not knowing where or when...br
+      (Full English lyrics can go here when toggled.)ip
+    div
+  main
+
+  footer
+    p© 2025 Raga Fitrah MuhammadSyah  Game Projectp
+    audio id=bgm src=httpsfiles.freemusicarchive.orgstorage-freemusicarchive-orgmusicccCommunityKai_EngelGlobal_VillageKai_Engel_-_04_-_July.mp3 loopaudio
+  footer
+
+  script
+    function toggleTranslation() {
+      const en = document.getElementById('en');
+      en.style.display = en.style.display === 'none'  'block'  'none';
+    }
+    function playMusic() {
+      const bgm = document.getElementById('bgm');
+      if (bgm.paused) {
+        bgm.play();
+      } else {
+        bgm.pause();
+      }
+    }
+  script
+
+body
+html
